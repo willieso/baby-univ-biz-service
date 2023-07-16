@@ -8,8 +8,8 @@ import (
 	"github.com/go-kratos/aegis/circuitbreaker/sre"
 	"github.com/pkg/errors"
 
-	"github.com/go-eagle/eagle/pkg/app"
-	"github.com/go-eagle/eagle/pkg/container/group"
+	"github.com/willieso/baby-univ-biz-service/pkg/app"
+	"github.com/willieso/baby-univ-biz-service/pkg/container/group"
 )
 
 // ErrNotAllowed is request failed due to circuit breaker triggered.

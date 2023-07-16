@@ -3,14 +3,14 @@ package main
 import (
 	"context"
 
-	eagle "github.com/go-eagle/eagle/pkg/app"
-	"github.com/go-eagle/eagle/pkg/config"
+	eagle "github.com/willieso/baby-univ-biz-service/pkg/app"
+	"github.com/willieso/baby-univ-biz-service/pkg/config"
 
 	"github.com/spf13/pflag"
 
-	logger "github.com/go-eagle/eagle/pkg/log"
+	logger "github.com/willieso/baby-univ-biz-service/pkg/log"
 
-	"github.com/go-eagle/eagle/pkg/queue/rabbitmq"
+	"github.com/willieso/baby-univ-biz-service/pkg/queue/rabbitmq"
 )
 
 var (

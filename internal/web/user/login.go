@@ -3,16 +3,16 @@ package user
 import (
 	"net/http"
 
-	"github.com/go-eagle/eagle/pkg/auth"
+	"github.com/willieso/baby-univ-biz-service/pkg/auth"
 
-	"github.com/go-eagle/eagle/internal/ecode"
+	"github.com/willieso/baby-univ-biz-service/internal/ecode"
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/go-eagle/eagle/internal/service"
-	"github.com/go-eagle/eagle/internal/web"
-	"github.com/go-eagle/eagle/pkg/errcode"
-	"github.com/go-eagle/eagle/pkg/log"
+	"github.com/willieso/baby-univ-biz-service/internal/service"
+	"github.com/willieso/baby-univ-biz-service/internal/web"
+	"github.com/willieso/baby-univ-biz-service/pkg/errcode"
+	"github.com/willieso/baby-univ-biz-service/pkg/log"
 )
 
 // GetLogin show login page

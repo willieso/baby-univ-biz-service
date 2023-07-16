@@ -10,7 +10,7 @@ import (
 	"github.com/uber/jaeger-client-go/zipkin"
 	jaegermet "github.com/uber/jaeger-lib/metrics"
 
-	"github.com/go-eagle/eagle/pkg/log"
+	"github.com/willieso/baby-univ-biz-service/pkg/log"
 )
 
 // Name sets the name of this tracer.

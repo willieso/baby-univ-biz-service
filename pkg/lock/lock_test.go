@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/go-eagle/eagle/pkg/redis"
+	"github.com/willieso/baby-univ-biz-service/pkg/redis"
 )
 
 func TestLockWithDefaultTimeout(t *testing.T) {

@@ -16,8 +16,8 @@ import (
 	"google.golang.org/grpc/encoding/gzip"
 	"google.golang.org/grpc/keepalive"
 
-	logger "github.com/go-eagle/eagle/pkg/log"
-	"github.com/go-eagle/eagle/pkg/transport/grpc/resolver/discovery"
+	logger "github.com/willieso/baby-univ-biz-service/pkg/log"
+	"github.com/willieso/baby-univ-biz-service/pkg/transport/grpc/resolver/discovery"
 )
 
 // Dial

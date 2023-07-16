@@ -18,8 +18,8 @@ import (
 	healthPb "google.golang.org/grpc/health/grpc_health_v1"
 	"google.golang.org/grpc/reflection"
 
-	logger "github.com/go-eagle/eagle/pkg/log"
-	"github.com/go-eagle/eagle/pkg/utils"
+	logger "github.com/willieso/baby-univ-biz-service/pkg/log"
+	"github.com/willieso/baby-univ-biz-service/pkg/utils"
 )
 
 // ServerOption is gRPC server option.
@@ -166,7 +166,8 @@ func NewServer(opts ...ServerOption) *Server {
 
 // Endpoint return a real address to registry endpoint.
 // examples:
-//   grpc://127.0.0.1:9090
+//
+//	grpc://127.0.0.1:9090
 func (s *Server) Endpoint() (*url.URL, error) {
 	addr, err := utils.Extract(s.address, s.lis)
 	if err != nil {

@@ -9,7 +9,7 @@ import (
 	"github.com/go-redis/redis/extra/redisotel/v8"
 	"github.com/go-redis/redis/v8"
 
-	"github.com/go-eagle/eagle/pkg/config"
+	"github.com/willieso/baby-univ-biz-service/pkg/config"
 )
 
 // RedisClient redis 客户端
@@ -23,7 +23,7 @@ const (
 )
 
 // RedisManager define a redis manager
-//nolint
+// nolint
 type RedisManager struct {
 	clients map[string]*redis.Client
 	*sync.RWMutex

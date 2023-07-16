@@ -16,8 +16,8 @@ const (
 	contextPackage     = protogen.GoImportPath("context")
 	ginPackage         = protogen.GoImportPath("github.com/gin-gonic/gin")
 	metadataPackage    = protogen.GoImportPath("google.golang.org/grpc/metadata")
-	eagleAppPackage    = protogen.GoImportPath("github.com/go-eagle/eagle/pkg/app")
-	errCodePackage     = protogen.GoImportPath("github.com/go-eagle/eagle/pkg/errcode")
+	eagleAppPackage    = protogen.GoImportPath("github.com/willieso/baby-univ-biz-service/pkg/app")
+	errCodePackage     = protogen.GoImportPath("github.com/willieso/baby-univ-biz-service/pkg/errcode")
 	deprecationComment = "// Deprecated: Do not use."
 )
 

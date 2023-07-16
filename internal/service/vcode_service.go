@@ -7,12 +7,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/go-eagle/eagle/internal/repository"
+	"github.com/willieso/baby-univ-biz-service/internal/repository"
 
 	"github.com/pkg/errors"
 
-	"github.com/go-eagle/eagle/pkg/log"
-	"github.com/go-eagle/eagle/pkg/redis"
+	"github.com/willieso/baby-univ-biz-service/pkg/log"
+	"github.com/willieso/baby-univ-biz-service/pkg/redis"
 )
 
 // 验证码服务，主要提供生成验证码和获取验证码

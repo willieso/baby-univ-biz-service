@@ -10,7 +10,7 @@ gitTreeState = $(shell if git status|grep -q 'clean';then echo clean; else echo 
 
 ldflags="-w -X ${versionDir}.gitTag=${gitTag} -X ${versionDir}.buildDate=${buildDate} -X ${versionDir}.gitCommit=${gitCommit} -X ${versionDir}.gitTreeState=${gitTreeState}"
 
-PROJECT_NAME := "github.com/go-eagle/eagle"
+PROJECT_NAME := "github.com/willieso/baby-univ-biz-service"
 PKG := "$(PROJECT_NAME)"
 GO_VERSION=$(shell go version | cut -c 14- | cut -d' ' -f1 | cut -d'.' -f2)
 PKG_LIST := $(shell go list ${PKG}/... | grep -v /vendor/)

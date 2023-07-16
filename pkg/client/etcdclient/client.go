@@ -8,8 +8,8 @@ import (
 	clientv3 "go.etcd.io/etcd/client/v3"
 	"google.golang.org/grpc"
 
-	"github.com/go-eagle/eagle/pkg/config"
-	"github.com/go-eagle/eagle/pkg/log"
+	"github.com/willieso/baby-univ-biz-service/pkg/config"
+	"github.com/willieso/baby-univ-biz-service/pkg/log"
 )
 
 // Config etcd config

@@ -3,13 +3,13 @@ package user
 import (
 	"context"
 
-	"github.com/go-eagle/eagle/internal/service"
+	"github.com/willieso/baby-univ-biz-service/internal/service"
 
 	"github.com/gin-gonic/gin"
 	"github.com/spf13/cast"
 
-	"github.com/go-eagle/eagle/pkg/errcode"
-	"github.com/go-eagle/eagle/pkg/log"
+	"github.com/willieso/baby-univ-biz-service/pkg/errcode"
+	"github.com/willieso/baby-univ-biz-service/pkg/log"
 )
 
 // Update 更新用户信息

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SERVER="eagle"
+SERVER="baby-univ-biz-service"
 BASE_DIR=$PWD
 INTERVAL=2
 

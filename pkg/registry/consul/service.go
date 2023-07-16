@@ -4,7 +4,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/go-eagle/eagle/pkg/registry"
+	"github.com/willieso/baby-univ-biz-service/pkg/registry"
 )
 
 type serviceSet struct {

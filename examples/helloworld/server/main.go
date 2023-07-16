@@ -6,12 +6,12 @@ import (
 
 	//"google.golang.org/grpc"
 
-	"github.com/go-eagle/eagle/examples/helloworld/helloworld"
-	pb "github.com/go-eagle/eagle/examples/helloworld/helloworld"
-	grpcSrv "github.com/go-eagle/eagle/internal/server"
-	"github.com/go-eagle/eagle/pkg/app"
-	eagle "github.com/go-eagle/eagle/pkg/app"
-	logger "github.com/go-eagle/eagle/pkg/log"
+	"github.com/willieso/baby-univ-biz-service/examples/helloworld/helloworld"
+	pb "github.com/willieso/baby-univ-biz-service/examples/helloworld/helloworld"
+	grpcSrv "github.com/willieso/baby-univ-biz-service/internal/server"
+	"github.com/willieso/baby-univ-biz-service/pkg/app"
+	eagle "github.com/willieso/baby-univ-biz-service/pkg/app"
+	logger "github.com/willieso/baby-univ-biz-service/pkg/log"
 )
 
 // server is used to implement helloworld.GreeterServer.

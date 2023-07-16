@@ -9,7 +9,7 @@ import (
 
 	"github.com/go-redis/redis/v8"
 
-	redis2 "github.com/go-eagle/eagle/pkg/redis"
+	redis2 "github.com/willieso/baby-univ-biz-service/pkg/redis"
 )
 
 const (

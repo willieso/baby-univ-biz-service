@@ -6,7 +6,7 @@ import (
 	"github.com/go-kratos/aegis/ratelimit/bbr"
 	"github.com/pkg/errors"
 
-	"github.com/go-eagle/eagle/pkg/app"
+	"github.com/willieso/baby-univ-biz-service/pkg/app"
 )
 
 // ErrLimitExceed is service unavailable due to rate limit exceeded.

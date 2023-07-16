@@ -3,7 +3,7 @@ package etcd
 import (
 	"encoding/json"
 
-	"github.com/go-eagle/eagle/pkg/registry"
+	"github.com/willieso/baby-univ-biz-service/pkg/registry"
 )
 
 func marshal(si *registry.ServiceInstance) (string, error) {

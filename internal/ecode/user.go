@@ -1,8 +1,8 @@
 package ecode
 
-import "github.com/go-eagle/eagle/pkg/errcode"
+import "github.com/willieso/baby-univ-biz-service/pkg/errcode"
 
-//nolint: golint
+// nolint: golint
 var (
 	// user errors
 	ErrUserNotFound          = errcode.NewError(20101, "The user was not found.")

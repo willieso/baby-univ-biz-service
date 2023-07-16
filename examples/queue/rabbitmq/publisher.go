@@ -4,7 +4,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/go-eagle/eagle/pkg/queue/rabbitmq"
+	"github.com/willieso/baby-univ-biz-service/pkg/queue/rabbitmq"
 )
 
 // 启动 rabbitmq

@@ -5,10 +5,10 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/go-eagle/eagle/internal/ecode"
-	"github.com/go-eagle/eagle/internal/service"
-	"github.com/go-eagle/eagle/pkg/errcode"
-	"github.com/go-eagle/eagle/pkg/log"
+	"github.com/willieso/baby-univ-biz-service/internal/ecode"
+	"github.com/willieso/baby-univ-biz-service/internal/service"
+	"github.com/willieso/baby-univ-biz-service/pkg/errcode"
+	"github.com/willieso/baby-univ-biz-service/pkg/log"
 )
 
 // FollowList 关注列表

@@ -7,11 +7,11 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/spf13/cast"
 
-	"github.com/go-eagle/eagle/internal/ecode"
-	"github.com/go-eagle/eagle/internal/repository"
-	"github.com/go-eagle/eagle/internal/service"
-	"github.com/go-eagle/eagle/pkg/errcode"
-	"github.com/go-eagle/eagle/pkg/log"
+	"github.com/willieso/baby-univ-biz-service/internal/ecode"
+	"github.com/willieso/baby-univ-biz-service/internal/repository"
+	"github.com/willieso/baby-univ-biz-service/internal/service"
+	"github.com/willieso/baby-univ-biz-service/pkg/errcode"
+	"github.com/willieso/baby-univ-biz-service/pkg/log"
 )
 
 // Get 获取用户信息

@@ -12,9 +12,9 @@ import (
 	// database driver
 	_ "github.com/go-sql-driver/mysql"
 
-	"github.com/go-eagle/eagle/pkg/container/group"
-	"github.com/go-eagle/eagle/pkg/log"
-	xtime "github.com/go-eagle/eagle/pkg/time"
+	"github.com/willieso/baby-univ-biz-service/pkg/container/group"
+	"github.com/willieso/baby-univ-biz-service/pkg/log"
+	xtime "github.com/willieso/baby-univ-biz-service/pkg/time"
 )
 
 const (

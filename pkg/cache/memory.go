@@ -8,8 +8,8 @@ import (
 	"github.com/dgraph-io/ristretto"
 	"github.com/pkg/errors"
 
-	"github.com/go-eagle/eagle/pkg/encoding"
-	"github.com/go-eagle/eagle/pkg/log"
+	"github.com/willieso/baby-univ-biz-service/pkg/encoding"
+	"github.com/willieso/baby-univ-biz-service/pkg/log"
 )
 
 type memoryCache struct {

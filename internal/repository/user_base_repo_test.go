@@ -13,7 +13,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/go-eagle/eagle/internal/model"
+	"github.com/willieso/baby-univ-biz-service/internal/model"
 )
 
 type Suite struct {
@@ -46,7 +46,7 @@ func (s *Suite) AfterTest(_, _ string) {
 	require.NoError(s.T(), s.mock.ExpectationsWereMet())
 }
 
-//nolint: golint
+// nolint: golint
 func TestInit(t *testing.T) {
 	suite.Run(t, new(Suite))
 }

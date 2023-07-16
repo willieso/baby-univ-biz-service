@@ -9,7 +9,7 @@ import (
 
 	"google.golang.org/grpc"
 
-	pb "github.com/go-eagle/eagle/examples/helloworld/helloworld"
+	pb "github.com/willieso/baby-univ-biz-service/examples/helloworld/helloworld"
 )
 
 const (

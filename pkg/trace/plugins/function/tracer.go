@@ -15,7 +15,7 @@ import (
 
 const (
 	// TraceName function trance name
-	TraceName = "github.com/go-eagle/eagle/trace/plugins/function"
+	TraceName = "github.com/willieso/baby-univ-biz-service/trace/plugins/function"
 	// PluginName plugin category name
 	PluginName = "function"
 )

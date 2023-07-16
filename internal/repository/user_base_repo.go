@@ -11,10 +11,10 @@ import (
 	"golang.org/x/sync/singleflight"
 	"gorm.io/gorm"
 
-	"github.com/go-eagle/eagle/internal/model"
-	"github.com/go-eagle/eagle/pkg/cache"
-	"github.com/go-eagle/eagle/pkg/log"
-	"github.com/go-eagle/eagle/pkg/redis"
+	"github.com/willieso/baby-univ-biz-service/internal/model"
+	"github.com/willieso/baby-univ-biz-service/pkg/cache"
+	"github.com/willieso/baby-univ-biz-service/pkg/log"
+	"github.com/willieso/baby-univ-biz-service/pkg/redis"
 )
 
 var g singleflight.Group

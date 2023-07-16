@@ -12,9 +12,9 @@ import (
 	"github.com/google/uuid"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/go-eagle/eagle/pkg/log"
-	"github.com/go-eagle/eagle/pkg/registry"
-	"github.com/go-eagle/eagle/pkg/transport"
+	"github.com/willieso/baby-univ-biz-service/pkg/log"
+	"github.com/willieso/baby-univ-biz-service/pkg/registry"
+	"github.com/willieso/baby-univ-biz-service/pkg/transport"
 )
 
 // App global app

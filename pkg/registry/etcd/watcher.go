@@ -5,7 +5,7 @@ import (
 
 	clientv3 "go.etcd.io/etcd/client/v3"
 
-	"github.com/go-eagle/eagle/pkg/registry"
+	"github.com/willieso/baby-univ-biz-service/pkg/registry"
 )
 
 var _ registry.Watcher = &watcher{}

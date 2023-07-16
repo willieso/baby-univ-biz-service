@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-eagle/eagle/pkg/encoding"
-	redis2 "github.com/go-eagle/eagle/pkg/redis"
+	"github.com/willieso/baby-univ-biz-service/pkg/encoding"
+	redis2 "github.com/willieso/baby-univ-biz-service/pkg/redis"
 )
 
 func Test_redisCache_SetGet(t *testing.T) {

@@ -10,7 +10,7 @@ import (
 
 	"github.com/hashicorp/consul/api"
 
-	"github.com/go-eagle/eagle/pkg/registry"
+	"github.com/willieso/baby-univ-biz-service/pkg/registry"
 )
 
 // Client is consul client config

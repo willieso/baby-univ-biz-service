@@ -8,7 +8,7 @@ import (
 
 	"github.com/Shopify/sarama"
 
-	logger "github.com/go-eagle/eagle/pkg/log"
+	logger "github.com/willieso/baby-univ-biz-service/pkg/log"
 )
 
 // Producer kafka producer

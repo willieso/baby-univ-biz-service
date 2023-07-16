@@ -16,7 +16,7 @@ import (
 
 	"github.com/hibiken/asynq"
 
-	"github.com/go-eagle/eagle/pkg/log"
+	"github.com/willieso/baby-univ-biz-service/pkg/log"
 	"github.com/pkg/errors"
 )
 

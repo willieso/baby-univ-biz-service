@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-eagle/eagle/pkg/utils"
+	"github.com/willieso/baby-univ-biz-service/pkg/utils"
 )
 
 // Verifier define struct

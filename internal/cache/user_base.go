@@ -8,11 +8,11 @@ import (
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/go-eagle/eagle/internal/model"
-	"github.com/go-eagle/eagle/pkg/cache"
-	"github.com/go-eagle/eagle/pkg/encoding"
-	"github.com/go-eagle/eagle/pkg/log"
-	"github.com/go-eagle/eagle/pkg/redis"
+	"github.com/willieso/baby-univ-biz-service/internal/model"
+	"github.com/willieso/baby-univ-biz-service/pkg/cache"
+	"github.com/willieso/baby-univ-biz-service/pkg/encoding"
+	"github.com/willieso/baby-univ-biz-service/pkg/log"
+	"github.com/willieso/baby-univ-biz-service/pkg/redis"
 )
 
 const (

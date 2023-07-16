@@ -7,14 +7,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-eagle/eagle/internal/repository"
+	"github.com/willieso/baby-univ-biz-service/internal/repository"
 
 	"github.com/pkg/errors"
 
-	"github.com/go-eagle/eagle/internal/model"
-	"github.com/go-eagle/eagle/pkg/app"
-	"github.com/go-eagle/eagle/pkg/auth"
-	"github.com/go-eagle/eagle/pkg/log"
+	"github.com/willieso/baby-univ-biz-service/internal/model"
+	"github.com/willieso/baby-univ-biz-service/pkg/app"
+	"github.com/willieso/baby-univ-biz-service/pkg/auth"
+	"github.com/willieso/baby-univ-biz-service/pkg/log"
 )
 
 // UserService define interface func

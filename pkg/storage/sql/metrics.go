@@ -1,7 +1,7 @@
 package sql
 
 import (
-	"github.com/go-eagle/eagle/pkg/metric"
+	"github.com/willieso/baby-univ-biz-service/pkg/metric"
 )
 
 const namespace = "mysql_client"

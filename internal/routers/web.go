@@ -8,10 +8,10 @@ import (
 	"github.com/gin-contrib/static"
 	"github.com/gin-gonic/gin"
 
-	"github.com/go-eagle/eagle/internal/web"
-	webUser "github.com/go-eagle/eagle/internal/web/user"
-	"github.com/go-eagle/eagle/pkg/flash"
-	"github.com/go-eagle/eagle/pkg/log"
+	"github.com/willieso/baby-univ-biz-service/internal/web"
+	webUser "github.com/willieso/baby-univ-biz-service/internal/web/user"
+	"github.com/willieso/baby-univ-biz-service/pkg/flash"
+	"github.com/willieso/baby-univ-biz-service/pkg/log"
 )
 
 // LoadWebRouter loads the middlewares, routes, handlers.

@@ -22,14 +22,14 @@ import (
 	"github.com/spf13/pflag"
 	_ "go.uber.org/automaxprocs"
 
-	"github.com/go-eagle/eagle/internal/model"
-	"github.com/go-eagle/eagle/internal/repository"
-	"github.com/go-eagle/eagle/internal/server"
-	"github.com/go-eagle/eagle/internal/service"
-	eagle "github.com/go-eagle/eagle/pkg/app"
-	"github.com/go-eagle/eagle/pkg/config"
-	logger "github.com/go-eagle/eagle/pkg/log"
-	v "github.com/go-eagle/eagle/pkg/version"
+	"github.com/willieso/baby-univ-biz-service/internal/model"
+	"github.com/willieso/baby-univ-biz-service/internal/repository"
+	"github.com/willieso/baby-univ-biz-service/internal/server"
+	"github.com/willieso/baby-univ-biz-service/internal/service"
+	eagle "github.com/willieso/baby-univ-biz-service/pkg/app"
+	"github.com/willieso/baby-univ-biz-service/pkg/config"
+	logger "github.com/willieso/baby-univ-biz-service/pkg/log"
+	v "github.com/willieso/baby-univ-biz-service/pkg/version"
 )
 
 var (

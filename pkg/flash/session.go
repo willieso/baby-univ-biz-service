@@ -6,7 +6,7 @@ import (
 
 	"github.com/gorilla/sessions"
 
-	"github.com/go-eagle/eagle/pkg/log"
+	"github.com/willieso/baby-univ-biz-service/pkg/log"
 )
 
 // Store cookie storage
@@ -14,7 +14,7 @@ var Store = sessions.NewCookieStore([]byte("secret-password"))
 
 //var sessionName = "flash-session"
 
-//GetCurrentUserName returns the username of the logged in user
+// GetCurrentUserName returns the username of the logged in user
 func GetCurrentUserName(r *http.Request) string {
 	session, err := Store.Get(r, "session")
 	if err == nil {

@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/go-eagle/eagle/pkg/log"
+	"github.com/willieso/baby-univ-biz-service/pkg/log"
 )
 
 type SubscribeOptionMap map[string]Handler

@@ -9,8 +9,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/go-eagle/eagle/pkg/transport"
-	"github.com/go-eagle/eagle/pkg/utils"
+	"github.com/willieso/baby-univ-biz-service/pkg/transport"
+	"github.com/willieso/baby-univ-biz-service/pkg/utils"
 )
 
 var (
@@ -63,7 +63,8 @@ func (s *Server) ServeHTTP(resp http.ResponseWriter, req *http.Request) {
 
 // Endpoint return a real address to registry endpoint.
 // examples:
-//   http://127.0.0.1:8080
+//
+//	http://127.0.0.1:8080
 func (s *Server) Endpoint() (*url.URL, error) {
 	addr, err := utils.Extract(s.address, s.lis)
 	if err != nil {

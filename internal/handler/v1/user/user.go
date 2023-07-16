@@ -1,8 +1,8 @@
 package user
 
 import (
-	"github.com/go-eagle/eagle/internal/model"
-	"github.com/go-eagle/eagle/pkg/app"
+	"github.com/willieso/baby-univ-biz-service/internal/model"
+	"github.com/willieso/baby-univ-biz-service/pkg/app"
 )
 
 var response = app.NewResponse()
